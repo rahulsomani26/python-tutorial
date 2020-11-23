@@ -5,6 +5,7 @@ results from applying a transformation function to every item in the original in
 map() takes a function object and an iterable (or multiple iterables) as arguments and returns 
 an iterator that yields transformed items on demand. The function’s signature is defined as 
 follows:
+Syntax:
 
 map(function, iterable[, iterable1, iterable2,..., iterableN])
 
@@ -44,4 +45,5 @@ def squareNumbers(num):
 
 
 squared = map(squareNumbers, numbers)
+print(squared)
 print(list(squared))
